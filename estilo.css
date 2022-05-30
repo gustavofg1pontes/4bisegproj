@@ -14,6 +14,7 @@ button:hover{
 .telamenu{
     width: 100vw;
     height: 100vh;
+    position: absolute;
     flex-direction: column;
     background-image: url("fundomenu.jpg");
     background-repeat: no-repeat;
@@ -33,6 +34,31 @@ button:hover{
     width: 6vw;
     height: 9vh;
     margin-left: 2vw;
-    background-image: url("musicaligada.jpg");
+    background-image: url("xbranco.png");
     background-size: 100% 100%;
+}
+.jogo{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+.creditos{
+    background-color: ;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: none;
+}
+.opcoes{
+    background-color: ;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: none;
+}
+canvas{
+    border: 0;
+    width: 98vw;
+    height: 98vh;
 }
